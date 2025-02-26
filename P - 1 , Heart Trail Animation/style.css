@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden ;
+    color: azure;
+}
+
+body {
+    background: #000;
+    height: 100vh;
+
+}
+
+span {
+    background: url(./2303127_favourite_heart_love_marked_special_icon.png);
+    position: absolute;
+    height: 100px;
+    pointer-events: none;
+    background-position: center;
+    background-size: cover;
+    width: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: animate 6s linear;    
+  
+}
+
+@keyframes animate {
+    0%{
+        transform: translate(-50%,-50%);
+        opacity: 1 ;
+        filter: hue-rotate(0deg);
+
+    }
+    100%{
+        transform: translate(-50%,-5000%);
+        opacity: 0;
+        filter: hue-rotate(270deg);
+    }
+
+}
+
+
+
+ 
