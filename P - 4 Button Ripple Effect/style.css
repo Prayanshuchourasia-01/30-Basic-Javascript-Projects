@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    text-align: center;
+    height: 100vh;
+    background: #242348;
+    align-content: center;
+}
+
+.container button{
+    padding: 20px;
+    font-size: 40px;
+}
